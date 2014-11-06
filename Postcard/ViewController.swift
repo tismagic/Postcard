@@ -32,8 +32,9 @@ class ViewController: UIViewController {
         messageLabel.text = enterMessageTextFiled.text;
         enterMessageTextFiled.text = "";
         enterMessageTextFiled.resignFirstResponder();
-        messageLabel.textColor = UIColor.redColor();
+        
         mailButton.setTitle("mail sent", forState: UIControlState.Normal);
+        
     }
 
 }
