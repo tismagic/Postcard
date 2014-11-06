@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         messageLabel.text = enterMessageTextFiled.text;
         enterMessageTextFiled.text = "";
         enterMessageTextFiled.resignFirstResponder();
-        
+        //this is cool
         mailButton.setTitle("mail sent", forState: UIControlState.Normal);
         
     }
